@@ -20,7 +20,6 @@ class ArticlesController extends Controller
 
     public function show($slug)
     {
-        dd($this->articleRepository->forSlug($slug));
         return view('frontend.articles.show', [
             'article' => $this->articleRepository->forSlug($slug),
         ]);

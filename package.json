@@ -3,7 +3,10 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "twill:deps-install": "cd vendor/area17/twill && npm i",
+        "twill:watch": "cd vendor/area17/twill && npm run watch",
+        "twill:build": "cd vendor/area17/twill && npm run build"
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^6.6.0",
