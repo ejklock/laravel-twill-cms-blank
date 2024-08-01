@@ -1,4 +1,18 @@
-@import './fonts.scss';
-@import './variables.scss';
-@import 'bootstrap/scss/bootstrap';
-@import './style.scss'
+// Import variables
+@import "./variables";
+
+// Import Bootstrap
+@import "bootstrap";
+
+// Global CSS
+@import "./global";
+
+// Components
+@import "./components/buttons";
+@import "./components/navbar";
+
+// Sections
+@import "./sections/contact";
+@import "./sections/footer";
+@import "./sections/masthead";
+@import "./sections/post";
